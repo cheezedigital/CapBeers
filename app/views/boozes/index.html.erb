@@ -1,2 +1,4 @@
-<h1>Boozes#index</h1>
-<p>Find me in app/views/boozes/index.html.erb</p>
+<h1>Booze</h1>
+<% @boozes.each do |booze| %>
+  <h2><%= link_to booze.name, booze_path(booze.id) %></h2>
+<% end %>

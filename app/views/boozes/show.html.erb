@@ -1,2 +1,6 @@
-<h1>Boozes#show</h1>
-<p>Find me in app/views/boozes/show.html.erb</p>
+<h2>Description</h2>
+<h4><%= @booze.category %></h4><br />
+<h4><%= @booze.style %></h4><br />
+<h4><%= @booze.brewery %></h4><br />
+<h4><%= @booze.abv %></h4>
+<%= link_to 'Previous Page', boozes_path %>
