@@ -1,4 +1,5 @@
 class BoozesController < ApplicationController
+  
   def index
     @boozes = Booze.all
   end
