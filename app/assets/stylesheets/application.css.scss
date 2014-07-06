@@ -1,3 +1,4 @@
+
 $body-bg: #ecf0f1;
 $navbar-inverse-bg: #27ae60;
 $navbar-inverse-link-color: #bdc3c7;
@@ -5,3 +6,7 @@ $brand-primary: #f39c12;
 $jumbotron-bg: #bdc3c7;
 
 @import 'bootstrap';
+
+body {
+  background-color: #34495e;
+}
